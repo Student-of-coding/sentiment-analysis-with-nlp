@@ -78,11 +78,11 @@ Or open `sentiment_analysis_nlp.ipynb` in **Google Colab** and choose *Runtime �
 
 ## OUTPUT
 
-![Confusion matrix and ROC curve](output/01_confusion_matrix_roc.png)
+![Confusion matrix and ROC curve](01_confusion_matrix_roc.png)
 
 Left: confusion matrix on the test set. Right: ROC curve with a strong AUC—together showing the classifier separates positive and negative reviews well (about 85% accuracy, 0.93 AUC).
 
-![Most informative words](output/02_informative_words.png)
+![Most informative words](02_informative_words.png)
 
 The words with the largest model weights—praise words push predictions toward positive, criticism words toward negative—confirming the model learned meaningful sentiment signal.
 
